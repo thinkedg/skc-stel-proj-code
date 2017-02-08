@@ -2,7 +2,6 @@
 **Table of Contents**
 
 - [Stelligent Mini-Project](#stelligent-mini-project)
-    - [The base system](#the-base-system)
 
 <!-- markdown-toc end -->
 
@@ -12,7 +11,3 @@
 
 Stelligent Mini-Project
 =======================
-
-
-The base system
----------------

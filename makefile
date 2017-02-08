@@ -1,7 +1,5 @@
-.PHONY: run stop clean restart unittest functest  testhttpd testdefaultpage
+.PHONY: run stop clean restart  testhttpd testdefaultpage testmainpage testall ps logs
 
-build:
-	docker-compose build
 run:
 	docker-compose up -d
 stop:
@@ -23,14 +21,6 @@ clean: stop
 	docker-compose rm -f
 
 restart: stop run
-
-unittest:
-	docker-compose run --rm dockerapp python3 test_adder.py
-
-functest: run
-	docker-compose run --rm dockerapp python3 test.py
-	docker-compose stop
-	docker-compose rm -f dockerapp redis
 
 
 ps:
