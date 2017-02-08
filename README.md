@@ -11,3 +11,14 @@
 
 Stelligent Mini-Project
 =======================
+
+Base System Requirements
+------------------------
+
+* This application will run an Linux system configured with
+    * docker
+	* docker-compose
+	* ansible
+
+* for this example will be using aws ec2 instance(s)
+    * **Ubuntu Server 16.04 LTS (HVM), SSD Volume Type - ami-7c803d1c**
