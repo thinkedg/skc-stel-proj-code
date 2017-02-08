@@ -1,3 +1,11 @@
 ---
 version: '2'
 services:
+  web_server:
+    image: httpd:2.4
+    volumes:
+      - ./code/main.html:/usr/local/apache2/htdocs/main.html
+    ports:
+      - 80:80
+
+    
