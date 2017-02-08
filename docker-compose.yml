@@ -3,6 +3,7 @@ version: '2'
 services:
   web_server:
     image: httpd:2.4
+    container_name: stelligent_mini_project
     volumes:
       - ./code/main.html:/usr/local/apache2/htdocs/main.html
     ports:
