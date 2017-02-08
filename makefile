@@ -28,3 +28,6 @@ ps:
 
 logs:
 	docker-compose logs
+
+images:
+	docker images
